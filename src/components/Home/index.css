@@ -1,0 +1,18 @@
+.similar-products-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-products-list {
+    margin-top: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .similar-products-list {
+    flex-direction: row;
+  }
+}
